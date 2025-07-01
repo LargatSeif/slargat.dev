@@ -1,0 +1,527 @@
+{
+  "$schema": "https://raw.githubusercontent.com/reorx/jsoncv/master/schema/jsoncv.schema.json",
+  "basics": {
+    "name": "Seifeddine LARGAT",
+    "label": "IT Consultant",
+    "image": "https://media.licdn.com/dms/image/v2/D4E03AQGzrLQJrzb7AQ/profile-displayphoto-shrink_400_400/B4EZQkQ_PYGcAg-/0/1735775221300?e=1756944000&v=beta&t=PbgaRhS_2VcHEnFe4QytgAhIaGGtXcShSIpncWRBu2c",
+    "email": "seifeddine.largat@outlook.com",
+    "phone": "(33) 07 53 93 88 19",
+    "url": "https://slargat.dev",
+    "summary": "I've been a design and development consultant for over 6 years, specializing in Web stacks. Today, I work with major accounts as a technical team leader, to establish guidelines and best practices, to define objectives for production start-up, for evolutionary maintenance, in technical decision-making processes, to design cloud architectures, to add a healthy dose of automation.",
+    "location": {
+      "address": "115 Avenue Maurice Berteaux",
+      "postalCode": "78500",
+      "city": "Sartrouville",
+      "region": "Yvelines",
+      "countryCode": "FR"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "LargatSeif",
+        "url": "https://github.com/LargatSeif"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Seifeddine LARGAT",
+        "url": "https://www.linkedin.com/in/seifeddine-largat/"
+      },
+      {
+        "network": "X",
+        "username": "seif_largat",
+        "url": "https://x.com/seif_largat"
+      },
+      {
+        "network": "Whatsapp",
+        "username": "33753938819",
+        "url": "https://wa.me/33753938819"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Veolia Water Technologies",
+      "location": "Île-de-France, France",
+      "description": "",
+      "position": "Full Stack Developer",
+      "url": "",
+      "startDate": "2025-04-01",
+      "endDate": "2025-06-01",
+      "summary": "",
+      "highlights": [
+        "Front-end Development",
+        "Back-End Web Development",
+        "Amazon Web Services (AWS)",
+        "Python",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "Devoteam Creative Tech",
+      "location": "Paris, Île-de-France, France",
+      "description": "",
+      "position": "Lead Consultant",
+      "url": "",
+      "startDate": "2024-04-01",
+      "endDate": "2025-06-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "name": "Devoteam Creative Tech",
+      "location": "Paris, Île-de-France, France",
+      "description": "",
+      "position": "Senior Consultant",
+      "url": "",
+      "startDate": "2022-05-01",
+      "endDate": "2024-04-01",
+      "summary": "",
+      "highlights": [
+        "User Requirements",
+        "Cascading Style Sheets (CSS)",
+        "Needs Analysis",
+        "Web Applications",
+        "Teamwork",
+        "JavaScript",
+        "Angular",
+        "Node.js",
+        "Express.js",
+        "Amazon Web Services (AWS)"
+      ]
+    },
+    {
+      "name": "Bunqer",
+      "location": "Paris, Île-de-France, France",
+      "description": "",
+      "position": "Full Stack Developer",
+      "url": "",
+      "startDate": "2025-01-01",
+      "endDate": "2025-02-01",
+      "summary": "",
+      "highlights": [
+        "Node.js",
+        "Full-Stack Development",
+        "Web Application Development",
+        "JavaScript",
+        "Amazon Web Services (AWS)"
+      ]
+    },
+    {
+      "name": "Air Liquide",
+      "location": "Paris, Île-de-France, France",
+      "description": "",
+      "position": "Full Stack Developer",
+      "url": "",
+      "startDate": "2023-04-01",
+      "endDate": "2025-01-01",
+      "summary": "",
+      "highlights": [
+        "Web Applications",
+        "Teamwork",
+        "Application Programming Interfaces (API)",
+        "User Requirements",
+        "Cascading Style Sheets (CSS)",
+        "Needs Analysis",
+        "Node.js",
+        "Angular"
+      ]
+    },
+    {
+      "name": "ENGIE IT",
+      "location": "Paris, Île-de-France, France",
+      "description": "",
+      "position": "Full Stack Developer",
+      "url": "",
+      "startDate": "2020-09-01",
+      "endDate": "2023-03-01",
+      "summary": "",
+      "highlights": [
+        "Angular",
+        "Node.js",
+        "Web Applications",
+        "Teamwork",
+        "Application Programming Interfaces (API)",
+        "React.js",
+        "User Requirements",
+        "Cascading Style Sheets (CSS)",
+        "Needs Analysis",
+        "Technical Documentation",
+        "Laravel"
+      ]
+    },
+    {
+      "name": "Devoteam",
+      "location": "Levallois-Perret, Île-de-France, France",
+      "description": "",
+      "position": "Full Stack Developer",
+      "url": "",
+      "startDate": "2020-09-01",
+      "endDate": "2022-04-01",
+      "summary": "",
+      "highlights": [
+        "Web Applications",
+        "Teamwork",
+        "User Requirements",
+        "Cascading Style Sheets (CSS)",
+        "Needs Analysis"
+      ]
+    },
+    {
+      "name": "Zaion – Callbot & Chatbot",
+      "location": "Greater Paris Metropolitan Region",
+      "description": "",
+      "position": "Back-end Developer",
+      "url": "",
+      "startDate": "2019-11-01",
+      "endDate": "2020-07-01",
+      "summary": "",
+      "highlights": [
+        "Node.js",
+        "Teamwork",
+        "User Requirements",
+        "Needs Analysis"
+      ]
+    },
+    {
+      "name": "Lookiimobile Tunisie",
+      "location": "Tunisia",
+      "description": "",
+      "position": "Full Stack Developer",
+      "url": "",
+      "startDate": "2018-09-01",
+      "endDate": "2019-11-01",
+      "summary": "",
+      "highlights": [
+        "Web Applications",
+        "Teamwork",
+        "Application Programming Interfaces (API)",
+        "User Requirements",
+        "Cascading Style Sheets (CSS)",
+        "Needs Analysis",
+        "Technical Documentation"
+      ]
+    },
+    {
+      "name": "Lookiimobile Tunisie",
+      "location": "Tunisia",
+      "description": "",
+      "position": "Frontend Developer",
+      "url": "",
+      "startDate": "2018-02-01",
+      "endDate": "2018-08-01",
+      "summary": "Web Developer",
+      "highlights": [
+        "Teamwork",
+        "Cascading Style Sheets (CSS)"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "CoderDojo",
+      "position": "Teacher",
+      "url": "http://coderdojo.example.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Global movement of free coding clubs for young people.",
+      "highlights": ["Awarded 'Teacher of the Month'"]
+    },
+    {
+      "organization": "Code for Kids",
+      "position": "Mentor",
+      "url": "http://codeforkids.example.com/",
+      "startDate": "2021-01-01",
+      "endDate": "2022-01-01",
+      "summary": "Non-profit organization dedicated to teaching children how to code.",
+      "highlights": [
+        "Developed curriculum for beginners to advanced students",
+        "Mentored a team of students who won a national coding competition"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Carthage High Commercial Studies Institute",
+      "url": "https://ihec.rnu.tn/",
+      "area": "E-commerce & Technology Innovation",
+      "studyType": "Master",
+      "startDate": "2016-09-01",
+      "endDate": "2019-02-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Carthage High Commercial Studies Institute",
+      "url": "https://ihec.rnu.tn/",
+      "area": "IT Management ",
+      "studyType": "Bachelor",
+      "startDate": "2013-09-01",
+      "endDate": "2016-06-01",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "summary": "Experience with Matlab, Blender, Solidworks, Unity, Python, Java, C, C++, CSS, Javascript, HTML, Adobe Premiere for VR film, Adobe Photoshop; with eagerness to keep improving and learning new technologies",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Python",
+        "PHP",
+        "MySQL",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "UI Design",
+      "level": "Master",
+      "summary": "Highly skilled in UI design with a strong understanding of design principles, user experience, and industry-standard tools. Proficient in creating visually appealing and user-friendly interfaces for web and mobile applications.",
+      "keywords": [
+        "User Experience",
+        "Wireframing",
+        "Prototyping",
+        "Figma",
+        "Sketch",
+        "InVision",
+        "Axure"
+      ]
+    },
+    {
+      "name": "Blockchain Development",
+      "level": "Expert",
+      "keywords": ["Smart Contracts", "Ethereum", "Solidity"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    },
+    {
+      "language": "French",
+      "fluency": "Advanced"
+    },
+    {
+      "language": "Arabic",
+      "fluency": "Native"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    },
+    {
+      "name": "Mythical Creatures",
+      "keywords": ["Dragons", "Mermaids"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Mohamed Kammoun",
+      "position": "Chief Technical Officer",
+      "company": "Lookiimobile Tunisie",
+      "date": "2022-03-10",
+      "reference": "Seifeddine is one of the best people I had as a partner! We've joined our hands on several projects for nearly two years. He is the consummate professional and an expert diplomat, with such excellent communication skills he was able to navigate even the most tense discussions with grace. He knows how to help his pairs and get the best out of them. Seifeddine was always reliable and professional, and at stressful times he was a positive influence on all of us. I witnessed Seifeddine's commitment to his role firsthand, and I recommend him without hesitation."
+    },
+    {
+      "name": "hamdi ben tiba",
+      "position": "Apple Mobile Development.",
+      "company": "Lookiimobile Tunisie",
+      "date": "2022-03-10",
+      "reference": "Seifeddine was a great professional to work with! We worked together at Lookiimobile and he helped me a lot to get started and also to understand internal processes. He had such a remarkable ability to tackle any problem but with a warm smile! One of the most profound person I have met! Good job! Keep it up! ✨"
+    },
+    {
+      "name": "Saifeddinne MATTALAH",
+      "position": "Full Stack Developer | Building Scalable & High-Performance Apps with React, Laravel, & Node.js",
+      "company": "Lookiimobile Tunisie",
+      "date": "2022-03-10",
+      "reference": "It was a pleasure working and collaborating with Seifeddine on a daily basis at Lookiimobile. Apart from a deep technical knowledge and strong expérience, he has the ability to explain issues thoroughly, and also formulate potential solutions quickly. Looking forward working with him again"
+    },
+    {
+      "name": "Thomas Popielski",
+      "position": "Air Liquide Product Owner | Co-fondateur MAE - un réseau d'experts pour tous",
+      "company": "Air Liquide",
+      "date": "2024-12-02",
+      "reference": "Seifeddine a été un atout précieux dans notre équipe chez Air Liquide pendant 2 ans. C'est quelqu'un qui sait se rendre disponible et sa réactivité était très appréciée, il a su gérer des situations urgentes, apportant des solutions rapides et fiables. Je recommande vivement Seifeddine pour son professionnalisme et son esprit d'équipe !"
+    },
+    {
+      "name": "Ahmed Ben Taleb",
+      "position": "Tech maverick | Executive MBA candidate | Co-Founder",
+      "company": "",
+      "date": "2022-03-28",
+      "reference": "Seif is one of the best developers I worked with. He has the ability to adapt and deliver a good quality code in short timelines with a great skill of quick analysis and solution oriented. All the projects in which he participated were a success and compliant to the market standards."
+    },
+    {
+      "name": "Gustave NGANGO",
+      "position": "AWS Solutions Architect & Lead, Coach DevOps – AWS Community Builder - Linkedin Instructor",
+      "company": "ENGIE IT",
+      "date": "2022-03-11",
+      "reference": "J'ai eu la possibilité de travailler avec Seifeddine sur plusieurs projets web à Engie IT. C'est un très bon développeur, sûrement l'un des meilleurs avec qui j'ai travaillé. Capable de réfléchir rapidement, très travailleur, Intuitif et à l'écoute, il a toujours été le facteur clé de la réussite des différents projets. L'avoir dans son équipe est un vrai plus."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Portail Fournisseurs - ENGIE",
+      "startDate": "2020-09-01",
+      "endDate": null,
+      "entity": "ENGIE IT",
+      "description": "",
+      "highlights": [],
+      "keywords": [
+        "Technical Documentation",
+        "Cascading Style Sheets (CSS)",
+        "Application Programming Interfaces (API)"
+      ],
+      "url": null
+    },
+    {
+      "name": "Rosyboa",
+      "startDate": "2018-08-01",
+      "endDate": null,
+      "entity": "Lookiimobile Tunisie",
+      "description": "Rosyboa is a neuroscience-based productivity tool for innovative teams. Information overload affects many people's performance and wellness at work. We help teams focus on getting things done using action-driven conversations. Rosyboa is the only team collaboration tool that doubles up as a collective brain, turning conversations into stories.",
+      "highlights": [
+        "Visual and intuitive",
+        "Action-driven",
+        "Conversation-based",
+        "Simple with only three screens"
+      ],
+      "keywords": [
+        "Cascading Style Sheets (CSS)"
+      ],
+      "url": null
+    },
+    {
+      "name": "Mycena Business",
+      "startDate": "2018-04-01",
+      "endDate": null,
+      "entity": "Lookiimobile Tunisie",
+      "description": "Mycena Pro is a password management app for iOs and Android. Companies can create an account online and subscribe their companies and employees to Mycena Pro, allowing each user to create their own password fortress with three levels of security.",
+      "highlights": [],
+      "keywords": [
+        "Technical Documentation",
+        "Cascading Style Sheets (CSS)",
+        "Application Programming Interfaces (API)"
+      ],
+      "url": null
+    },
+    {
+      "name": "Mycena Individual",
+      "startDate": "2018-04-01",
+      "endDate": null,
+      "entity": "Lookiimobile Tunisie",
+      "description": "Mycena is a password security solution for organisations holding sensitive information. 81% of breaches are linked to weak/stolen passwords. We help employees use strong passwords by default and store them locally and securely. Mycena is the only Identity and Access Management solution with a fully distributed risk model - where everyone keeps their keys secure in their pocket.",
+      "highlights": [
+        "Strong passwords generator",
+        "Passwords encrypted and saved locally on device, NOT on the cloud.",
+        "Three levels of security for different sensitivity passwords",
+        "Access with finger print/ pin, lock pattern, face ID or voice passphrase",
+        "Backup file"
+      ],
+      "keywords": [
+        "Technical Documentation",
+        "Cascading Style Sheets (CSS)",
+        "Application Programming Interfaces (API)"
+      ],
+      "url": null
+    },
+    {
+      "name": "MyCena Web Extension (Chrome / Firefox)",
+      "startDate": "2019-03-01",
+      "endDate": "2019-06-01",
+      "entity": "Lookiimobile Tunisie",
+      "description": "MyCena web extension allows you to copy and paste passwords from your mobile to the desktop.",
+      "highlights": [
+        "login",
+        "password",
+        "notes",
+        "Useful for: When you want to use a login and password on the desktop, you don't have to type it. Go to your MyCena app and touch to copy. Then click the field and select Paste.",
+        "When you want to copy a login or password from your desktop onto your MyCena mobile app. On your desktop, select and copy the text. Then touch and select paste on your MyCena mobile app."
+      ],
+      "keywords": [
+        "Technical Documentation",
+        "Cascading Style Sheets (CSS)",
+        "Application Programming Interfaces (API)"
+      ],
+      "url": null
+    },
+    {
+      "name": "Byblos ERP",
+      "startDate": "2018-02-01",
+      "endDate": "2018-08-01",
+      "entity": "Lookiimobile Tunisie",
+      "description": "",
+      "highlights": [],
+      "keywords": [
+        "Technical Documentation",
+        "Cascading Style Sheets (CSS)"
+      ],
+      "url": null
+    },
+    {
+      "name": "Event M Dress",
+      "startDate": "2017-12-01",
+      "endDate": "2018-02-01",
+      "entity": null,
+      "description": "",
+      "highlights": [],
+      "keywords": [
+        "Cascading Style Sheets (CSS)"
+      ],
+      "url": null
+    },
+    {
+      "name": "Kalbi",
+      "startDate": "2016-11-01",
+      "endDate": "2017-02-01",
+      "entity": "Institut des Hautes Etudes Commerciales de Carthage",
+      "description": "",
+      "highlights": [],
+      "keywords": [
+        "Cascading Style Sheets (CSS)"
+      ],
+      "url": null
+    },
+    {
+      "name": "BusinessBook",
+      "startDate": "2016-02-01",
+      "endDate": "2016-06-01",
+      "entity": null,
+      "description": "Réseau social professionnel",
+      "highlights": [],
+      "keywords": [
+        "Cascading Style Sheets (CSS)",
+        "Application Programming Interfaces (API)"
+      ],
+      "url": null
+    }
+  ],
+  "sideProjects": [
+    {
+      "name": "Bebop",
+      "url": "https://bebop.example.com",
+      "description": "A spaceship that flies",
+      "keywords": ["Aerodynamics", "Space travel", "Rocket science"],
+      "startDate": "2022-01-01"
+    },
+    {
+      "name": "Warp Drive",
+      "url": "https://warpdrive.example.com",
+      "description": "A futuristic spaceship that travels faster than light",
+      "keywords": ["Quantum physics", "Interstellar travel", "Wormholes"],
+      "startDate": "2025-01-01"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/reorx/jsoncv/master/schema/jsoncv.schema.json",
+    "version": "v2.0.0",
+    "lastModified": "2025-07-01T11:29:16+02:00Z"
+  }
+}

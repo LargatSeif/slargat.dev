@@ -22,8 +22,4 @@ export default defineConfig({
   },
 
   adapter: cloudflare(),
-  build: {
-    client: './',
-    server: './_worker.js',
-  },
 });

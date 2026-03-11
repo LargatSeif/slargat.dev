@@ -1,101 +1,58 @@
 ---
-import Section from "../Section.astro"
-import { skills as skillsData } from "@cv"
-import type { Skills } from "@/data/cv"
-import { Icon } from 'astro-icon/components'  
-import { getIconName } from "@/data/skill-icons"
-const skills = skillsData as Skills[]
+import Section from "../Section.astro";
+import HTML from "@/icons/html.astro";
+import CSS from "@/icons/css.astro";
+import JavaScript from "@/icons/javascript.astro";
+import TypeScript from "@/icons/type.astro";
+import React from "@/icons/react.astro";
+import Node from "@/icons/node.astro";
+import MySQL from "@/icons/sql.astro";
+import Git from "@/icons/git.astro";
+import GitHub from "@/icons/GitHub.astro";
+import Tailwind from "@/icons/tailwind.astro";
+import Next from "@/icons/next.astro";
+import { skills } from "@cv";
+import Swift from "@/icons/swift.astro";
+import SwiftUI from "@/icons/swiftui.astro";
+import Kotlin from "@/icons/kotlin.astro";
+import Flutter from "@/icons/flutter.astro";
+import Figma from "@/icons/Figma.astro";
+import Gitlab from "@/icons/Gitlab.astro";
+
+const SKILLS_ICONS: Record<string, any> = {
+	HTML,
+	CSS,
+	JavaScript,
+	TypeScript,
+	React,
+	Node,
+	MySQL,
+	Git,
+	GitHub,
+	Next,
+	Tailwind,
+	Swift,
+	SwiftUI,
+	Kotlin,
+	Flutter,
+	Figma,
+	Gitlab,
+};
 ---
 
-<Section title="Skills">
-  <ul>
-    {
-      skills.map(({ name, level, keywords = [] }) => {
-        const iconName = getIconName(name);
-        const keywordIcons = !iconName
-          ? keywords.map(getIconName).filter(Boolean)
-          : [];
+<Section className={Astro.props.className} title="Skills">
+	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
+		{
+			skills.map(({ name }) => {
+				const iconName = name === "Next.js" ? "Next" : name;
+				const Icon = SKILLS_ICONS[iconName];
 
-        return (
-          <li
-            class="skill-pill"
-            tabindex="0"
-            onclick="this.classList.add('active'); setTimeout(() => this.classList.remove('active'), 1500)"
-          >
-            {/* Primary icon */}
-            {iconName && <Icon name={iconName} class="icon" />}
-
-            {/* Fallback icons for keywords */}
-            {!iconName && keywordIcons.length > 0 &&
-              keywordIcons.map((icon) => (
-                <Icon name={icon} class="icon" />
-              ))
-            }
-
-            {/* Tooltip with skill name and level */}
-            <span>{name}</span>
-            {level && <span class="tooltip">{level}</span>}
-          </li>
-        )
-      })
-    }
-  </ul>
+				return (
+					<li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
+						{Icon && <Icon />} <span>{name}</span>
+					</li>
+				);
+			})
+		}
+	</ul>
 </Section>
-
-<style>
-  ul {
-    display: inline-flex;
-    gap: 8px;
-    flex-wrap: wrap;
-  }
-
-  .skill-pill {
-    display: inline-flex;
-    position: relative;
-    align-items: center;
-    gap: 0.4rem;
-    padding: 0.3rem 0.75rem;
-    background: #f4f4f5;
-    border-radius: 1rem;
-    font-size: 0.85rem;
-    font-weight: 500;
-    color: inherit;
-    text-decoration: none;
-    transition: background-color 0.25s ease, box-shadow 0.25s ease;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-    cursor: default;
-  }
-
-  .skill-pill:hover {
-    background-color: #e0e0e0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  .icon {
-    height: 1rem;
-    width: 1rem;
-    opacity: 0.8;
-  }
-
-  .tooltip {
-    background: #222;
-    border-radius: 4px;
-    color: white;
-    font-size: 0.8rem;
-    left: 50%;
-    bottom: 110%;
-    opacity: 0;
-    padding: 0.2rem 0.4rem;
-    position: absolute;
-    transform: translateX(-50%);
-    transition: opacity 0.2s ease-in-out;
-    white-space: nowrap;
-    pointer-events: none;
-    z-index: 10;
-  }
-
-  .skill-pill.active .tooltip {
-    opacity: 1;
-  }
-
-</style>

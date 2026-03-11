@@ -1,29 +1,8 @@
-<!-- Wrapper file for resume sections -->
 ---
-const { title } = Astro.props
+const { className, title } = Astro.props;
 ---
 
-<section>
-  {title && <h2>{title}</h2>}
-  <slot />
+<section class:list={["flex flex-col gap-4 print:gap-0", className]}>
+	{title && <h3 class="relative flex w-full items-center gap-3 pb-4 text-3xl print:gap-1 print:pb-0 print:text-xl">{title}</h3>}
+	<slot />
 </section>
-
-<style>
-  section {
-    max-width: 700px;
-    margin: 0 auto 48px;
-  }
-
-  h2 {
-    margin-bottom: 8px;
-    font-weight: 700;
-    line-height: 1.5;
-    font-size: 1.5rem;
-  }
-
-  @media (width <= 700px) {
-    section {
-      margin-bottom: 38px;
-    }
-  }
-</style>

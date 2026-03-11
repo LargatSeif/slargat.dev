@@ -1,13 +1,14 @@
 {
-  "$schema": "https://raw.githubusercontent.com/reorx/jsoncv/master/schema/jsoncv.schema.json",
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Seifeddine LARGAT",
-    "label": "IT Consultant",
-    "image": "https://media.licdn.com/dms/image/v2/D4E03AQGzrLQJrzb7AQ/profile-displayphoto-shrink_400_400/B4EZQkQ_PYGcAg-/0/1735775221300?e=1756944000&v=beta&t=PbgaRhS_2VcHEnFe4QytgAhIaGGtXcShSIpncWRBu2c",
+    "label": "Senior Web Developer",
+    "image": "/me_avatar.jpg",
     "email": "seifeddine.largat@outlook.com",
     "phone": "(33) 07 53 93 88 19",
     "url": "https://slargat.dev",
-    "summary": "I've been a design and development consultant for over 6 years, specializing in Web stacks. Today, I work with major accounts as a technical team leader, to establish guidelines and best practices, to define objectives for production start-up, for evolutionary maintenance, in technical decision-making processes, to design cloud architectures, to add a healthy dose of automation.",
+    "summary": "Tech Lead and Senior Full-Stack Developer with 7+ years of experience specializing in JavaScript, TypeScript and PHP web stacks. I have worked with major CAC 40 companies and innovative startups, leading technical teams, establishing guidelines and best practices, driving cloud architecture decisions (AWS), and implementing CI/CD automation. My strong communication skills and commitment to delivery have consistently ensured project success at every stage.",
+    "theme": "default",
     "location": {
       "address": "115 Avenue Maurice Berteaux",
       "postalCode": "78500",
@@ -40,11 +41,63 @@
   },
   "work": [
     {
-      "name": "Veolia Water Technologies",
+      "name": "TotalEnergies",
+      "url": "https://totalenergies.com",
+      "position": "Full-stack Developer",
+      "location_type": "On site",
+      "location": "Paris, Île-de-France, France",
+      "startDate": "2025-12-01",
+      "endDate": null,
+      "summary": "",
+      "highlights": [],
+      "skills": [],
+      "responsibilities": [],
+      "achievements": []
+    },
+    {
+      "name": "EDF",
+      "url": "https://edf.fr",
+      "position": "Lead Tech / Full-Stack Senior Developer",
+      "location_type": "On site",
       "location": "Île-de-France, France",
-      "description": "",
+      "startDate": "2025-07-01",
+      "endDate": "2025-10-01",
+      "summary": "Intervened for EDF, France and Europe's leading electricity producer. The objective was to industrialize and secure a prototype vehicle ownership cost simulation application for commercial transport (internal use), and transform it into a platform capable of evolving into a simulator for any type of vehicle, with full administrator control: granular access management, membership waitlist, data referential updates, and calculation parameter configuration.",
+      "highlights": [
+        "React",
+        "Hono.js",
+        "Nodejs",
+        "TypeScript",
+        "GitLab CI"
+      ],
+      "skills": [
+        "React",
+        "HonoJS",
+        "NodeJS",
+        "TypeScript",
+        "GitLab"
+      ],
+      "responsibilities": [
+        "Industrialization of an existing prototype",
+        "Evolution, improvement and enrichment of prototype features",
+        "Optimization of calculation formulas",
+        "Creation of the front-end and back-end (REST API) application foundation",
+        "Implementation of development standards and patterns to anticipate future evolutions",
+        "Normalization of development and delivery processes",
+        "Writing technical documentation"
+      ],
+      "achievements": [
+        "Delivered front-end application",
+        "Delivered back-end REST API",
+        "Produced technical documentation"
+      ]
+    },
+    {
+      "name": "Veolia Water Technologies",
+      "url": "https://veolia.com",
       "position": "Full Stack Developer",
-      "url": "",
+      "location_type": "On site",
+      "location": "Paris, Ile-de-France, France",
       "startDate": "2025-04-01",
       "endDate": "2025-06-01",
       "summary": "",
@@ -54,12 +107,17 @@
         "Amazon Web Services (AWS)",
         "Python",
         "TypeScript"
-      ]
+      ],
+      "skills": [],
+      "responsibilities": [
+        "Collaborated with senior developers to design and implement web applications using modern JavaScript frameworks.",
+        "Assisted in debugging and optimizing front-end code to ensure smooth user experiences.",
+        "Participated in code reviews and contributed to improving coding standards within the team."
+      ],
+      "achievements": []
     },
     {
       "name": "Devoteam Creative Tech",
-      "location": "Paris, Île-de-France, France",
-      "description": "",
       "position": "Lead Consultant",
       "url": "",
       "startDate": "2024-04-01",
@@ -69,8 +127,6 @@
     },
     {
       "name": "Devoteam Creative Tech",
-      "location": "Paris, Île-de-France, France",
-      "description": "",
       "position": "Senior Consultant",
       "url": "",
       "startDate": "2022-05-01",
@@ -91,8 +147,6 @@
     },
     {
       "name": "Bunqer",
-      "location": "Paris, Île-de-France, France",
-      "description": "",
       "position": "Full Stack Developer",
       "url": "",
       "startDate": "2025-01-01",
@@ -108,51 +162,86 @@
     },
     {
       "name": "Air Liquide",
-      "location": "Paris, Île-de-France, France",
-      "description": "",
-      "position": "Full Stack Developer",
-      "url": "",
+      "position": "Lead Tech / Full-Stack Senior Developer",
+      "url": "https://airliquide.com",
       "startDate": "2023-04-01",
-      "endDate": "2025-01-01",
-      "summary": "",
+      "endDate": "2024-12-01",
+      "summary": "Intervened for Air Liquide, world leader in gases, technologies and services for industry and healthcare. The mission focused on evolving and maintaining a strategic customer portal: delivering new features while fixing existing issues, progressively absorbing the distributor portal workload, and accompanying the SAP to SAP S/4HANA migration to guarantee seamless integration and interoperability across all systems.",
       "highlights": [
-        "Web Applications",
-        "Teamwork",
-        "Application Programming Interfaces (API)",
-        "User Requirements",
-        "Cascading Style Sheets (CSS)",
-        "Needs Analysis",
-        "Node.js",
-        "Angular"
+        "Angular",
+        "Express",
+        "NodeJS",
+        "TypeScript",
+        "GitLab CI",
+        "Splunk",
+        "Veracode",
+        "SonarQube",
+        "Jira",
+        "Confluence"
+      ],
+      "responsibilities": [
+        "Ensuring continuous evolution of the customer portal and evolutionary platform maintenance",
+        "Improving test coverage",
+        "Addressing performance issues",
+        "Optimizing development team management",
+        "Normalizing development and delivery processes",
+        "Accompanying the SAP to SAP S/4HANA migration",
+        "Guaranteeing integration and synchronization with other information systems (Salesforce, SAP, Data)",
+        "Writing technical documentation and audit/impact analysis reports",
+        "Supporting QA teams during acceptance testing",
+        "Onboarding and mentoring new development team members",
+        "Active participation in sprint prioritization and planning with PO/PM/Business teams",
+        "Organizing synchronization meetings with UI/UX, QA, DevOps, and SecOps teams"
+      ],
+      "achievements": [
+        "Significant platform performance improvements",
+        "Resolution of major bugs",
+        "Increased test coverage",
+        "Standardization of technical environments and adoption of new development practices"
       ]
     },
     {
       "name": "ENGIE IT",
-      "location": "Paris, Île-de-France, France",
-      "description": "",
       "position": "Full Stack Developer",
       "url": "",
       "startDate": "2020-09-01",
       "endDate": "2023-03-01",
-      "summary": "",
+      "summary": "Worked on the P2P Supplier Portal (Portail Fournisseurs) across two major releases: finalizing the first release (front-end with end-user and backoffice sub-apps, REST API, high-volume data processing lambdas, first data model refactoring), then driving the second release (integration of two new ERPs, second data model refactoring, migrations). Also maintained the Agora platform (backoffice, client interfaces, REST API, lambdas). Ensured knowledge transfer and onboarding of new team members.",
       "highlights": [
         "Angular",
-        "Node.js",
-        "Web Applications",
-        "Teamwork",
-        "Application Programming Interfaces (API)",
-        "React.js",
-        "User Requirements",
-        "Cascading Style Sheets (CSS)",
-        "Needs Analysis",
-        "Technical Documentation",
-        "Laravel"
+        "React",
+        "NodeJS",
+        "TypeScript",
+        "JavaScript",
+        "PHP",
+        "Laravel",
+        "Lumen",
+        "PostgreSQL",
+        "AWS Lambda",
+        "AWS SQS",
+        "AWS SES",
+        "DynamoDB",
+        "Aurora PostgreSQL",
+        "API Gateway",
+        "Pulumi",
+        "GitLab CI"
+      ],
+      "responsibilities": [
+        "Supporting QA and acceptance teams",
+        "Task breakdown and assignment",
+        "Onboarding and mentoring of new development team members",
+        "Facilitating code review sessions and pair programming",
+        "Participation in architectural decisions, POCs and feasibility studies",
+        "Anomaly analysis and resolution"
+      ],
+      "achievements": [
+        "Delivered release 1 and release 2 of the P2P Supplier Portal",
+        "Delivered Agora platform evolutions and maintenance",
+        "Produced technical POCs and audits"
       ]
     },
     {
       "name": "Devoteam",
-      "location": "Levallois-Perret, Île-de-France, France",
-      "description": "",
       "position": "Full Stack Developer",
       "url": "",
       "startDate": "2020-09-01",
@@ -168,43 +257,83 @@
     },
     {
       "name": "Zaion – Callbot & Chatbot",
-      "location": "Greater Paris Metropolitan Region",
-      "description": "",
       "position": "Back-end Developer",
       "url": "",
       "startDate": "2019-11-01",
       "endDate": "2020-07-01",
-      "summary": "",
+      "summary": "Zaion is a startup providing a complete AI-based voice customer relationship management solution with real-time supervision. Responsible for backend development on client projects: configuring and developing callbots, interfacing with client APIs, creating and training NLU recognition models (Machine Learning), and developing speech recognition improvement algorithms.",
       "highlights": [
-        "Node.js",
-        "Teamwork",
-        "User Requirements",
-        "Needs Analysis"
+        "NodeJS",
+        "JavaScript",
+        "MongoDB",
+        "IBM Watson",
+        "AWS Lambda",
+        "AWS S3",
+        "AWS SQS",
+        "AWS EC2",
+        "AWS ECS"
+      ],
+      "responsibilities": [
+        "Assisting clients in the requirements specification phase",
+        "Configuration and development of qualification and processing callbots",
+        "Interfacing with client APIs",
+        "Creation and design of conversational agent recognition models",
+        "Training recognition agents (Machine Learning)",
+        "Development and automation of data extraction algorithms for analysis and improvement",
+        "Development of speech recognition improvement algorithms (alphanumeric recognition, postal addresses, names, dates, license plates)",
+        "Supporting acceptance teams",
+        "Diagnosing and correcting anomalies"
+      ],
+      "achievements": [
+        "Delivered conversational models and trees",
+        "Produced analysis and audit reports",
+        "Delivered client applications and POCs"
       ]
     },
     {
       "name": "Lookiimobile Tunisie",
-      "location": "Tunisia",
-      "description": "",
       "position": "Full Stack Developer",
-      "url": "",
+      "url": "https://lookiimobile.com",
       "startDate": "2018-09-01",
       "endDate": "2019-11-01",
-      "summary": "",
+      "summary": "Lookiimobile is the go-to partner for SMEs undergoing digital transformation, blending mathematics, neuroscience and design to create innovative web and mobile tools. Developed and maintained key products: Mycena (password management app for iOS/Android/Chrome), Rosyboa (neuroscience-based productivity tool), and Byblos ERP.",
       "highlights": [
-        "Web Applications",
-        "Teamwork",
-        "Application Programming Interfaces (API)",
-        "User Requirements",
-        "Cascading Style Sheets (CSS)",
-        "Needs Analysis",
-        "Technical Documentation"
+        "Angular",
+        "Laravel",
+        "Lumen",
+        "NodeJS",
+        "JavaScript",
+        "TypeScript",
+        "MongoDB",
+        "AWS Lambda",
+        "AWS S3",
+        "AWS SQS",
+        "AWS EC2",
+        "AWS ECS",
+        "GitLab CI"
+      ],
+      "responsibilities": [
+        "Organization and facilitation of agile ceremonies",
+        "Writing specifications and requirements documents",
+        "Technical and operational feasibility analysis",
+        "Managing technical and functional migrations",
+        "Supervising and coordinating the production team",
+        "Organizing and facilitating code review sessions",
+        "Diagnosing and tracking anomalies",
+        "Participating in monthly international product webinars",
+        "Creating and maintaining CI/CD scripts",
+        "Conducting semi-annual audits for process compliance and performance evaluation",
+        "Designing and implementing new architectures and technology choices",
+        "Training and onboarding new team members and interns"
+      ],
+      "achievements": [
+        "Delivered multiple product releases for Mycena, Rosyboa and Byblos ERP",
+        "Implemented CI/CD pipelines",
+        "Produced technical audits and analyses"
       ]
     },
     {
       "name": "Lookiimobile Tunisie",
-      "location": "Tunisia",
-      "description": "",
       "position": "Frontend Developer",
       "url": "",
       "startDate": "2018-02-01",
@@ -214,31 +343,39 @@
         "Teamwork",
         "Cascading Style Sheets (CSS)"
       ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "url": "http://coderdojo.example.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": ["Awarded 'Teacher of the Month'"]
     },
     {
-      "organization": "Code for Kids",
-      "position": "Mentor",
-      "url": "http://codeforkids.example.com/",
-      "startDate": "2021-01-01",
-      "endDate": "2022-01-01",
-      "summary": "Non-profit organization dedicated to teaching children how to code.",
-      "highlights": [
-        "Developed curriculum for beginners to advanced students",
-        "Mentored a team of students who won a national coding competition"
-      ]
+      "name": "informaticien tunisien",
+      "position": "Internship",
+      "url": "",
+      "location": "Rue Chadly Kallel, Tunis, Tunisie",
+      "startDate": "2016-02-01",
+      "endDate": "2016-06-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "name": "LOGIDAS – Editeur d'ERP",
+      "position": "Internship",
+      "url": "",
+      "location": "Tunisia",
+      "startDate": "2014-06-01",
+      "endDate": "2014-07-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "name": "Société Karmex",
+      "position": "Internship",
+      "url": "",
+      "location": "Grombalia, Nabeul Governorate, Tunisia",
+      "startDate": "2011-06-01",
+      "endDate": "2011-08-01",
+      "summary": "",
+      "highlights": []
     }
   ],
+  "volunteer": [],
   "education": [
     {
       "institution": "Carthage High Commercial Studies Institute",
@@ -253,10 +390,20 @@
     {
       "institution": "Carthage High Commercial Studies Institute",
       "url": "https://ihec.rnu.tn/",
-      "area": "IT Management ",
+      "area": "IT Management",
       "studyType": "Bachelor",
       "startDate": "2013-09-01",
       "endDate": "2016-06-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "",
+      "url": "",
+      "area": "Computer Science",
+      "studyType": "Baccalauréat",
+      "startDate": "2012-09-01",
+      "endDate": "2013-06-01",
       "score": "",
       "courses": []
     }
@@ -265,37 +412,226 @@
   "publications": [],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
-      "summary": "Experience with Matlab, Blender, Solidworks, Unity, Python, Java, C, C++, CSS, Javascript, HTML, Adobe Premiere for VR film, Adobe Photoshop; with eagerness to keep improving and learning new technologies",
+      "name": "Gitlab",
+      "level": "Advanced",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Python",
-        "PHP",
-        "MySQL",
-        "PostgreSQL"
+        "Version Control",
+        "Collaboration",
+        "Source Code",
+        "CI/CD"
       ]
     },
     {
-      "name": "UI Design",
-      "level": "Master",
-      "summary": "Highly skilled in UI design with a strong understanding of design principles, user experience, and industry-standard tools. Proficient in creating visually appealing and user-friendly interfaces for web and mobile applications.",
+      "name": "HTML",
+      "level": "Intermediate",
       "keywords": [
-        "User Experience",
-        "Wireframing",
-        "Prototyping",
-        "Figma",
-        "Sketch",
-        "InVision",
-        "Axure"
+        "Web Development",
+        "Frontend"
       ]
     },
     {
-      "name": "Blockchain Development",
-      "level": "Expert",
-      "keywords": ["Smart Contracts", "Ethereum", "Solidity"]
+      "name": "CSS",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "PHP",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Server"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Framework",
+        "SPA"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "Svelte",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Framework"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "JavaScript",
+        "Server"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "NestJS",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Node.js Framework",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "Express",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Node.js",
+        "REST API"
+      ]
+    },
+    {
+      "name": "Laravel",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "PHP Framework"
+      ]
+    },
+    {
+      "name": "Symfony",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "PHP Framework"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Intermediate",
+      "keywords": [
+        "Databases",
+        "SQL",
+        "Data Storage",
+        "Backend"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Intermediate",
+      "keywords": [
+        "Databases",
+        "SQL",
+        "Data Storage",
+        "Backend"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Intermediate",
+      "keywords": [
+        "Databases",
+        "NoSQL",
+        "Data Storage",
+        "Backend"
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "Intermediate",
+      "keywords": [
+        "Cloud",
+        "DevOps",
+        "Lambda",
+        "S3",
+        "EC2"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "Source Code"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Intermediate",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "Source Code",
+        "Git"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "GenAI Level 1",
+      "date": "2024-01-01",
+      "issuer": "Devoteam",
+      "url": ""
     }
   ],
   "languages": [
@@ -312,80 +648,53 @@
       "fluency": "Native"
     }
   ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": ["Ferrets", "Unicorns"]
-    },
-    {
-      "name": "Mythical Creatures",
-      "keywords": ["Dragons", "Mermaids"]
-    }
-  ],
+  "interests": [],
   "references": [
     {
       "name": "Mohamed Kammoun",
-      "position": "Chief Technical Officer",
-      "company": "Lookiimobile Tunisie",
-      "date": "2022-03-10",
       "reference": "Seifeddine is one of the best people I had as a partner! We've joined our hands on several projects for nearly two years. He is the consummate professional and an expert diplomat, with such excellent communication skills he was able to navigate even the most tense discussions with grace. He knows how to help his pairs and get the best out of them. Seifeddine was always reliable and professional, and at stressful times he was a positive influence on all of us. I witnessed Seifeddine's commitment to his role firsthand, and I recommend him without hesitation."
     },
     {
       "name": "hamdi ben tiba",
-      "position": "Apple Mobile Development.",
-      "company": "Lookiimobile Tunisie",
-      "date": "2022-03-10",
       "reference": "Seifeddine was a great professional to work with! We worked together at Lookiimobile and he helped me a lot to get started and also to understand internal processes. He had such a remarkable ability to tackle any problem but with a warm smile! One of the most profound person I have met! Good job! Keep it up! ✨"
     },
     {
       "name": "Saifeddinne MATTALAH",
-      "position": "Full Stack Developer | Building Scalable & High-Performance Apps with React, Laravel, & Node.js",
-      "company": "Lookiimobile Tunisie",
-      "date": "2022-03-10",
       "reference": "It was a pleasure working and collaborating with Seifeddine on a daily basis at Lookiimobile. Apart from a deep technical knowledge and strong expérience, he has the ability to explain issues thoroughly, and also formulate potential solutions quickly. Looking forward working with him again"
     },
     {
       "name": "Thomas Popielski",
-      "position": "Air Liquide Product Owner | Co-fondateur MAE - un réseau d'experts pour tous",
-      "company": "Air Liquide",
-      "date": "2024-12-02",
       "reference": "Seifeddine a été un atout précieux dans notre équipe chez Air Liquide pendant 2 ans. C'est quelqu'un qui sait se rendre disponible et sa réactivité était très appréciée, il a su gérer des situations urgentes, apportant des solutions rapides et fiables. Je recommande vivement Seifeddine pour son professionnalisme et son esprit d'équipe !"
     },
     {
       "name": "Ahmed Ben Taleb",
-      "position": "Tech maverick | Executive MBA candidate | Co-Founder",
-      "company": "",
-      "date": "2022-03-28",
       "reference": "Seif is one of the best developers I worked with. He has the ability to adapt and deliver a good quality code in short timelines with a great skill of quick analysis and solution oriented. All the projects in which he participated were a success and compliant to the market standards."
     },
     {
       "name": "Gustave NGANGO",
-      "position": "AWS Solutions Architect & Lead, Coach DevOps – AWS Community Builder - Linkedin Instructor",
-      "company": "ENGIE IT",
-      "date": "2022-03-11",
       "reference": "J'ai eu la possibilité de travailler avec Seifeddine sur plusieurs projets web à Engie IT. C'est un très bon développeur, sûrement l'un des meilleurs avec qui j'ai travaillé. Capable de réfléchir rapidement, très travailleur, Intuitif et à l'écoute, il a toujours été le facteur clé de la réussite des différents projets. L'avoir dans son équipe est un vrai plus."
     }
   ],
   "projects": [
     {
       "name": "Portail Fournisseurs - ENGIE",
-      "startDate": "2020-09-01",
-      "endDate": null,
-      "entity": "ENGIE IT",
-      "description": "",
-      "highlights": [],
-      "keywords": [
-        "Technical Documentation",
-        "Cascading Style Sheets (CSS)",
-        "Application Programming Interfaces (API)"
+      "description": "P2P Supplier Portal for ENGIE — a full-stack application composed of end-user and backoffice front-ends, a REST API acting as a router/integrator between ERP systems, and high-volume data processing lambdas.",
+      "highlights": [
+        "Angular",
+        "React",
+        "NodeJS",
+        "PHP",
+        "Laravel",
+        "AWS Lambda",
+        "PostgreSQL"
       ],
-      "url": null
+      "isActive": "",
+      "github": "",
+      "url": "",
+      "startDate": "2020-09-01"
     },
     {
       "name": "Rosyboa",
-      "startDate": "2018-08-01",
-      "endDate": null,
-      "entity": "Lookiimobile Tunisie",
       "description": "Rosyboa is a neuroscience-based productivity tool for innovative teams. Information overload affects many people's performance and wellness at work. We help teams focus on getting things done using action-driven conversations. Rosyboa is the only team collaboration tool that doubles up as a collective brain, turning conversations into stories.",
       "highlights": [
         "Visual and intuitive",
@@ -393,30 +702,24 @@
         "Conversation-based",
         "Simple with only three screens"
       ],
-      "keywords": [
-        "Cascading Style Sheets (CSS)"
-      ],
-      "url": null
+      "isActive": "",
+      "github": "",
+      "url": "https://rosyboa.co",
+      "startDate": "2018-08-01"
     },
     {
       "name": "Mycena Business",
-      "startDate": "2018-04-01",
-      "endDate": null,
-      "entity": "Lookiimobile Tunisie",
       "description": "Mycena Pro is a password management app for iOs and Android. Companies can create an account online and subscribe their companies and employees to Mycena Pro, allowing each user to create their own password fortress with three levels of security.",
       "highlights": [],
-      "keywords": [
-        "Technical Documentation",
-        "Cascading Style Sheets (CSS)",
-        "Application Programming Interfaces (API)"
-      ],
-      "url": null
+      "url": "https://mycena.co",
+      "isActive": "",
+      "github": "",
+      "startDate": "2018-04-01"
     },
     {
       "name": "Mycena Individual",
-      "startDate": "2018-04-01",
-      "endDate": null,
-      "entity": "Lookiimobile Tunisie",
+      "isActive": "",
+      "github": "",
       "description": "Mycena is a password security solution for organisations holding sensitive information. 81% of breaches are linked to weak/stolen passwords. We help employees use strong passwords by default and store them locally and securely. Mycena is the only Identity and Access Management solution with a fully distributed risk model - where everyone keeps their keys secure in their pocket.",
       "highlights": [
         "Strong passwords generator",
@@ -425,19 +728,14 @@
         "Access with finger print/ pin, lock pattern, face ID or voice passphrase",
         "Backup file"
       ],
-      "keywords": [
-        "Technical Documentation",
-        "Cascading Style Sheets (CSS)",
-        "Application Programming Interfaces (API)"
-      ],
-      "url": null
+      "url": "https://mycena.co",
+      "startDate": "2018-04-01"
     },
     {
       "name": "MyCena Web Extension (Chrome / Firefox)",
-      "startDate": "2019-03-01",
-      "endDate": "2019-06-01",
-      "entity": "Lookiimobile Tunisie",
       "description": "MyCena web extension allows you to copy and paste passwords from your mobile to the desktop.",
+      "isActive": "",
+      "github": "",
       "highlights": [
         "login",
         "password",
@@ -445,83 +743,49 @@
         "Useful for: When you want to use a login and password on the desktop, you don't have to type it. Go to your MyCena app and touch to copy. Then click the field and select Paste.",
         "When you want to copy a login or password from your desktop onto your MyCena mobile app. On your desktop, select and copy the text. Then touch and select paste on your MyCena mobile app."
       ],
-      "keywords": [
-        "Technical Documentation",
-        "Cascading Style Sheets (CSS)",
-        "Application Programming Interfaces (API)"
-      ],
-      "url": null
+      "url": "",
+      "startDate": "2019-03-01",
+      "endDate": "2019-06-01"
     },
     {
       "name": "Byblos ERP",
-      "startDate": "2018-02-01",
-      "endDate": "2018-08-01",
-      "entity": "Lookiimobile Tunisie",
       "description": "",
       "highlights": [],
-      "keywords": [
-        "Technical Documentation",
-        "Cascading Style Sheets (CSS)"
-      ],
-      "url": null
+      "url": "",
+      "isActive": "",
+      "github": "",
+      "startDate": "2018-02-01",
+      "endDate": "2018-08-01"
     },
     {
       "name": "Event M Dress",
-      "startDate": "2017-12-01",
-      "endDate": "2018-02-01",
-      "entity": null,
       "description": "",
       "highlights": [],
-      "keywords": [
-        "Cascading Style Sheets (CSS)"
-      ],
-      "url": null
+      "isActive": "",
+      "github": "",
+      "url": "",
+      "startDate": "2017-12-01",
+      "endDate": "2018-02-01"
     },
     {
       "name": "Kalbi",
-      "startDate": "2016-11-01",
-      "endDate": "2017-02-01",
-      "entity": "Institut des Hautes Etudes Commerciales de Carthage",
       "description": "",
       "highlights": [],
-      "keywords": [
-        "Cascading Style Sheets (CSS)"
-      ],
-      "url": null
+      "isActive": "",
+      "github": "",
+      "url": "",
+      "startDate": "2016-11-01",
+      "endDate": "2017-02-01"
     },
     {
       "name": "BusinessBook",
-      "startDate": "2016-02-01",
-      "endDate": "2016-06-01",
-      "entity": null,
       "description": "Réseau social professionnel",
       "highlights": [],
-      "keywords": [
-        "Cascading Style Sheets (CSS)",
-        "Application Programming Interfaces (API)"
-      ],
-      "url": null
+      "isActive": "",
+      "github": "",
+      "url": "",
+      "startDate": "2016-02-01",
+      "endDate": "2016-06-01"
     }
-  ],
-  "sideProjects": [
-    {
-      "name": "Bebop",
-      "url": "https://bebop.example.com",
-      "description": "A spaceship that flies",
-      "keywords": ["Aerodynamics", "Space travel", "Rocket science"],
-      "startDate": "2022-01-01"
-    },
-    {
-      "name": "Warp Drive",
-      "url": "https://warpdrive.example.com",
-      "description": "A futuristic spaceship that travels faster than light",
-      "keywords": ["Quantum physics", "Interstellar travel", "Wormholes"],
-      "startDate": "2025-01-01"
-    }
-  ],
-  "meta": {
-    "canonical": "https://raw.githubusercontent.com/reorx/jsoncv/master/schema/jsoncv.schema.json",
-    "version": "v2.0.0",
-    "lastModified": "2025-07-01T11:29:16+02:00Z"
-  }
+  ]
 }

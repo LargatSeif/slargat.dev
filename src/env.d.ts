@@ -1,7 +1,8 @@
 /// <reference path="../.astro/types.d.ts" />
 /// <reference types="astro/client" />
 
-declare module 'astro-icon/components/Icon.astro' {
-    const Component: any;
-    export default Component;
+declare module "@alpinejs/collapse" {
+    import type { PluginCallback } from "alpinejs";
+    const collapse: PluginCallback;
+    export default collapse;
 }

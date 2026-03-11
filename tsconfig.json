@@ -10,5 +10,11 @@
         "src/*"
       ]
     }
-  }
+  },
+  "include": [
+    "./worker-configuration.d.ts",
+    "src/**/*.d.ts",
+    "src/**/*.ts",
+    "src/**/*.astro"
+  ]
 }

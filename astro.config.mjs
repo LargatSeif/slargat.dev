@@ -22,8 +22,6 @@ export default defineConfig({
   },
 
   adapter: cloudflare({
-    mode: 'directory',
-    imageService: 'cloudflare',
-    prerenderEnvironment: 'node',
+    imageService: { build: 'compile', runtime: 'cloudflare-binding' }
   }),
 });

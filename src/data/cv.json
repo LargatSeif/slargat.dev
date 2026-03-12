@@ -119,7 +119,7 @@
     {
       "name": "Devoteam Creative Tech",
       "position": "Lead Consultant",
-      "url": "",
+      "url": "https://devoteam.com",
       "startDate": "2024-04-01",
       "endDate": "2025-06-01",
       "summary": "",
@@ -128,7 +128,7 @@
     {
       "name": "Devoteam Creative Tech",
       "position": "Senior Consultant",
-      "url": "",
+      "url": "https://devoteam.com",
       "startDate": "2022-05-01",
       "endDate": "2024-04-01",
       "summary": "",
@@ -148,7 +148,7 @@
     {
       "name": "Bunqer",
       "position": "Full Stack Developer",
-      "url": "",
+      "url": "https://devoteam.com",
       "startDate": "2025-01-01",
       "endDate": "2025-02-01",
       "summary": "",
@@ -203,7 +203,7 @@
     {
       "name": "ENGIE IT",
       "position": "Full Stack Developer",
-      "url": "",
+      "url": "https://engie.com",
       "startDate": "2020-09-01",
       "endDate": "2023-03-01",
       "summary": "Worked on the P2P Supplier Portal (Portail Fournisseurs) across two major releases: finalizing the first release (front-end with end-user and backoffice sub-apps, REST API, high-volume data processing lambdas, first data model refactoring), then driving the second release (integration of two new ERPs, second data model refactoring, migrations). Also maintained the Agora platform (backoffice, client interfaces, REST API, lambdas). Ensured knowledge transfer and onboarding of new team members.",
@@ -243,7 +243,7 @@
     {
       "name": "Devoteam",
       "position": "Full Stack Developer",
-      "url": "",
+      "url": "https://devoteam.com",
       "startDate": "2020-09-01",
       "endDate": "2022-04-01",
       "summary": "",
@@ -258,7 +258,7 @@
     {
       "name": "Zaion – Callbot & Chatbot",
       "position": "Back-end Developer",
-      "url": "",
+      "url": "https://zaion.ai",
       "startDate": "2019-11-01",
       "endDate": "2020-07-01",
       "summary": "Zaion is a startup providing a complete AI-based voice customer relationship management solution with real-time supervision. Responsible for backend development on client projects: configuring and developing callbots, interfacing with client APIs, creating and training NLU recognition models (Machine Learning), and developing speech recognition improvement algorithms.",
@@ -335,7 +335,7 @@
     {
       "name": "Lookiimobile Tunisie",
       "position": "Frontend Developer",
-      "url": "",
+      "url": "https://lookiimobile.com",
       "startDate": "2018-02-01",
       "endDate": "2018-08-01",
       "summary": "Web Developer",
@@ -347,7 +347,7 @@
     {
       "name": "informaticien tunisien",
       "position": "Internship",
-      "url": "",
+      "url": "https://www.informaticien.tn/",
       "location": "Rue Chadly Kallel, Tunis, Tunisie",
       "startDate": "2016-02-01",
       "endDate": "2016-06-01",
@@ -357,7 +357,7 @@
     {
       "name": "LOGIDAS – Editeur d'ERP",
       "position": "Internship",
-      "url": "",
+      "url": "https://logidas.com/",
       "location": "Tunisia",
       "startDate": "2014-06-01",
       "endDate": "2014-07-01",
@@ -367,7 +367,7 @@
     {
       "name": "Société Karmex",
       "position": "Internship",
-      "url": "",
+      "url": "https://www.nabeul.gov.tn/fr/web-2-0-directory-2/karmex/",
       "location": "Grombalia, Nabeul Governorate, Tunisia",
       "startDate": "2011-06-01",
       "endDate": "2011-08-01",
@@ -398,8 +398,8 @@
       "courses": []
     },
     {
-      "institution": "",
-      "url": "",
+      "institution": "Lycée Secondaire - Grombalia",
+      "url": "https://education.gov.tn/?lang=fr",
       "area": "Computer Science",
       "studyType": "Baccalauréat",
       "startDate": "2012-09-01",

@@ -1,4 +1,6 @@
 ---
+import { Image } from "astro:assets";
+import avatarImage from "@/static/me_avatar.jpg";
 import { basics } from "@cv";
 import Section from "@/components/Section.astro";
 import Mail from "@/icons/Mail.astro";
@@ -10,7 +12,7 @@ import WorldMap from "@/icons/WorldMap.astro";
 import Whatsapp from "@/icons/Whatsapp.astro";
 import type { SocialIcon } from "@/types";
 
-const { name, label, image, location, profiles, phone, email } = basics;
+const { name, label, location, profiles, phone, email } = basics;
 const { city, region } = location;
 
 const SOCIAL_ICONS: SocialIcon = {
@@ -89,7 +91,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 			</footer>
 		</div>
 		<figure class="print:hidden w-fit relative">
-			<img class="shadow-lg shadow-skin-hues" src={image} alt={name} />
+			<Image class="shadow-lg shadow-skin-hues" src={avatarImage} alt={name} width={200} height={200} loading="eager" />
 			<div class="pointer-events-none absolute -inset-2">
 				<div class="absolute -inset-y-8 right-0 w-px bg-skin-hue/50 mask-[linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
 				<div class="absolute -inset-y-8 left-0 w-px bg-skin-hue/50 mask-[linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
